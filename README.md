@@ -18,7 +18,7 @@ Start PHP<br>
 <br>
 # To be pasted into 000-default.conf following "documentRoot /var/www/PiCamServer"<br>
 
-<Directory /><br>
+\<Directory /><br>
     Options FollowSymLinks<br>
     AllowOverride None<br>
 </Directory><br>
