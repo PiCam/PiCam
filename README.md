@@ -19,13 +19,13 @@ Start PHP<br>
 # To be pasted into 000-default.conf following "documentRoot /var/www/PiCamServer"<br>
 
 \<Directory /><br>
-Options FollowSymLinks<br>
-AllowOverride None<br>
+	Options FollowSymLinks<br>
+	AllowOverride None<br>
 \</Directory><br>
 \<Directory /var/www/PiCamServer><br>
-Options Indexes FollowSymLinks MultiViews<br>
-AllowOverride All<br>
-Order allow,deny<br>
-allow from all<br>
+	Options Indexes FollowSymLinks MultiViews<br>
+	AllowOverride All<br>
+	Order allow,deny<br>
+	allow from all<br>
 \</Directory><br>
 # Accessing the webserver: "[pi-ip]" in your browser
