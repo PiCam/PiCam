@@ -29,4 +29,4 @@ Start PHP<br>
     allow from all<br>
 </Directory><br>
 <br>
-# Accessing the webserver: "[pi-ip]>" in your browser
+# Accessing the webserver: "[pi-ip]" in your browser
