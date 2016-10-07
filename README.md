@@ -4,7 +4,7 @@ Putting a RasPi Camera on the Internet of Things!
 
 # Instructions:
 
-Set up Pi normally (Raspbian) with 128mb of dedicated VRAM and overclock to "high"
+Set up Pi normally (Raspbian) with 128mb of dedicated VRAM and overclock to "high" <br>
 Install Apache2 Webserver & PHP5
 Remove /var/www/html
 Download Zip & Unzip or Git Clone into /var/www/PiCamServer
