@@ -1,8 +1,8 @@
-# PiCamServer
+# PiCamServer<br>
 
-Putting a RasPi Camera on the Internet of Things!
-
-# Instructions:
+Putting a RasPi Camera on the Internet of Things!<br>
+<br>
+# Instructions:<br>
 
 Set up Pi normally (Raspbian) with 128mb of dedicated VRAM and overclock to "high"<br>
 Install Apache2 Webserver & PHP5<br>
@@ -15,18 +15,18 @@ Make folder "pics" with 775 (777?) permissions<br>
 Change your ip in vidstream.php to your pi<br>
 Start Webserver<br>
 Start PHP<br>
+<br>
+# To be pasted into 000-default.conf following "documentRoot /var/www/PiCamServer"<br>
 
-# To be pasted into 000-default.conf following "documentRoot /var/www/PiCamServer"
-
-<Directory />
-    Options FollowSymLinks
-    AllowOverride None
-</Directory>
-<Directory /var/www/PiCamServer>
-    Options Indexes FollowSymLinks MultiViews
-    AllowOverride All
-    Order allow,deny
-    allow from all
-</Directory>
-
+<Directory /><br>
+    Options FollowSymLinks<br>
+    AllowOverride None<br>
+</Directory><br>
+<Directory /var/www/PiCamServer><br>
+    Options Indexes FollowSymLinks MultiViews<br>
+    AllowOverride All<br>
+    Order allow,deny<br>
+    allow from all<br>
+</Directory><br>
+<br>
 # Accessing the webserver: "<your-ip>" in your browser
