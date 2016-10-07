@@ -20,7 +20,7 @@ Start PHP<br>
 
 \<Directory /><br>
 Options FollowSymLinks<br>
-AllowOverride None
+AllowOverride None<br>
 \</Directory><br>
 \<Directory /var/www/PiCamServer><br>
 Options Indexes FollowSymLinks MultiViews<br>
